@@ -13,7 +13,7 @@ namespace ClothingStore.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Home()
         {
             return View();
         }
