@@ -76,7 +76,7 @@ namespace OneTop.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("Home", "Home", new { area = "Account" });
+                        return RedirectToAction("Index", "Home", new { area = "Account" });
                     }
                 }
                 else

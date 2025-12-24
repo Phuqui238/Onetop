@@ -41,7 +41,7 @@ app.MapAreaControllerRoute(
 app.MapAreaControllerRoute(
     name: "Account_area",
     areaName: "Account",
-    pattern: "Account/{controller=Home}/{action=Home}/{id?}");
+    pattern: "Account/{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
